@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+	:root {
+		font-family: 'Inter var', sans-serif;
+	}
+}
+
+html {
+	background-color: rgb(249, 249, 249);
+}

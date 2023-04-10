@@ -16,13 +16,47 @@
 	<Accordian>
 		<span slot="head">Tell me more...</span>
 		<div slot="details">
-			<p>These are the details.</p>
+			<p>
+				When you're building a product, there's a bunch of decisions you're going to need to make.
+				Some of those decisions will be unique to the product you are building, but many won't.
+				There's a lot of tools out there and it can be hard to know which are the right ones...or,
+				at least, which are the <i>wrong</i> ones.
+			</p>
+			<p>
+				For a startup, the most important thing is moving fast. You need to build, release, and
+				iterate fast. If you don't, you will (probably) lose.
+			</p>
+			<p>The tools recommended on this site follow these principals:</p>
+			<ul>
+				<li>
+					<b>Keep it simple:</b> you've got enough to worry about already, don't make your life harder
+				</li>
+				<li>
+					<b>New isn't always better:</b> many established tools are popular for a reason, but...
+				</li>
+				<li>
+					<b>Sometimes new IS better:</b> don't ignore tools that genuinely change the game
+				</li>
+				<li>
+					<b>Build on strong foundations:</b> migrations are a huge time sink and will stop you from
+					shipping, but...
+				</li>
+				<li>
+					<b>Don't chase perfection:</b> you'll never avoid migrations completely, so don't become paralysed
+					by choice.
+				</li>
+			</ul>
+			<p>Yep, some of those are contradictory. That's life.</p>
+			<p>
+				The point of this site is to skip the analysis-paralysis. None of these tools are perfect,
+				but none of them are <i>wrong</i>.
+			</p>
 		</div>
 	</Accordian>
 	<Accordian>
 		<span slot="head">Is this sponsored?</span>
 		<div slot="details">
-			<p>No. This site costs nothing to run, and makes no money.</p>
+			<p>No, but it is opinionated. This site costs nothing to run, and makes no money.</p>
 		</div>
 	</Accordian>
 

@@ -66,9 +66,9 @@ export function load({ params }) {
 					foss: false
 				},
 				{
-					name: '',
+					name: 'MongoDB',
 					logo: '',
-					url: '',
+					url: 'https://www.mongodb.com/',
 					pros: [],
 					cons: [],
 					foss: false
@@ -128,7 +128,7 @@ export function load({ params }) {
 					foss: false
 				}
 			],
-			'Cloud vendor': [
+			'Cloud Vendor': [
 				{
 					name: 'GCP',
 					logo: '',

@@ -12,12 +12,12 @@ export function load({ params }) {
 					foss: false
 				},
 				{
-					name: 'RockSet',
+					name: 'ClickHouse',
 					logo: '',
-					url: 'https://rockset.com/',
+					url: 'https://clickhouse.com/',
 					pros: [],
 					cons: [],
-					foss: false
+					foss: true
 				}
 			],
 			'Transactional Database (OLTP)': [
@@ -53,7 +53,7 @@ export function load({ params }) {
 					url: 'https://www.meilisearch.com/',
 					pros: [],
 					cons: [],
-					foss: false
+					foss: true
 				}
 			],
 			'NoSQL/Document Database': [
@@ -99,7 +99,7 @@ export function load({ params }) {
 					url: 'https://bitwarden.com/',
 					pros: [],
 					cons: [],
-					foss: false
+					foss: true
 				},
 				{
 					name: '1Password',
@@ -153,7 +153,7 @@ export function load({ params }) {
 					url: 'https://nextjs.org/',
 					pros: [],
 					cons: [],
-					foss: false
+					foss: true
 				},
 				{
 					name: 'SvelteKit',
@@ -161,7 +161,7 @@ export function load({ params }) {
 					url: 'https://kit.svelte.dev/',
 					pros: [],
 					cons: [],
-					foss: false
+					foss: true
 				}
 			],
 			'Documentation Framework': [
@@ -171,7 +171,7 @@ export function load({ params }) {
 					url: 'https://docusaurus.io/',
 					pros: [],
 					cons: [],
-					foss: false
+					foss: true
 				},
 				{
 					name: 'Nextra',
@@ -179,7 +179,7 @@ export function load({ params }) {
 					url: 'https://nextra.site/',
 					pros: [],
 					cons: [],
-					foss: false
+					foss: true
 				}
 			],
 			'Documentation Language': [
@@ -189,7 +189,7 @@ export function load({ params }) {
 					url: 'https://www.markdownguide.org/',
 					pros: [],
 					cons: [],
-					foss: false
+					foss: true
 				},
 				{
 					name: 'AsciiDoc',
@@ -197,7 +197,7 @@ export function load({ params }) {
 					url: 'https://asciidoc.org/',
 					pros: [],
 					cons: [],
-					foss: false
+					foss: true
 				}
 			],
 			'Data Warehouse': [

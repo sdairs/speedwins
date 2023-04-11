@@ -217,6 +217,168 @@ export function load({ params }) {
 					cons: [],
 					foss: false
 				}
+			],
+			'Version Control': [
+				{
+					name: 'GitHub',
+					logo: '',
+					url: 'https://github.com/',
+					pros: [],
+					cons: [],
+					foss: false
+				},
+				{
+					name: 'GitLab',
+					logo: '',
+					url: 'https://gitlab.com',
+					pros: [],
+					cons: [],
+					foss: false
+				}
+			],
+			'Office Suite': [
+				{
+					name: 'Google Drive',
+					logo: '',
+					url: 'https://drive.google.com/',
+					pros: [],
+					cons: [],
+					foss: false
+				},
+				{
+					name: '-',
+					logo: '',
+					url: '#',
+					pros: [],
+					cons: [],
+					foss: false
+				}
+			],
+			'Shared Storage': [
+				{
+					name: 'Google Drive',
+					logo: '',
+					url: 'https://drive.google.com/',
+					pros: [],
+					cons: [],
+					foss: false
+				},
+				{
+					name: '-',
+					logo: '',
+					url: '#',
+					pros: [],
+					cons: [],
+					foss: false
+				}
+			],
+			'Video Conferencing': [
+				{
+					name: 'Google Meet',
+					logo: '',
+					url: 'https://meet.google.com/',
+					pros: [],
+					cons: [],
+					foss: false
+				},
+				{
+					name: 'Zoom',
+					logo: '',
+					url: 'https://zoom.us/',
+					pros: [],
+					cons: [],
+					foss: false
+				}
+			],
+			Email: [
+				{
+					name: 'GMail',
+					logo: '',
+					url: 'https://mail.google.com/',
+					pros: [],
+					cons: [],
+					foss: false
+				},
+				{
+					name: '-',
+					logo: '',
+					url: '#',
+					pros: [],
+					cons: [],
+					foss: false
+				}
+			],
+			'Instant Messaging': [
+				{
+					name: 'Slack',
+					logo: '',
+					url: 'https://slack.com',
+					pros: [],
+					cons: [],
+					foss: false
+				},
+				{
+					name: 'Discord',
+					logo: '',
+					url: 'https://discord.com/',
+					pros: [],
+					cons: [],
+					foss: false
+				}
+			],
+			'Content Planner': [
+				{
+					name: 'Airtable',
+					logo: '',
+					url: 'https://airtable.com/',
+					pros: [],
+					cons: [],
+					foss: false
+				},
+				{
+					name: '-',
+					logo: '',
+					url: '#',
+					pros: [],
+					cons: [],
+					foss: false
+				}
+			],
+			'PLG/Marketing Workflows': [
+				{
+					name: 'customer.io',
+					logo: '',
+					url: 'https://customer.io/',
+					pros: [],
+					cons: [],
+					foss: false
+				},
+				{
+					name: '-',
+					logo: '',
+					url: '#',
+					pros: [],
+					cons: [],
+					foss: false
+				}
+			],
+			'No-code automation': [
+				{
+					name: 'Zapier',
+					logo: '',
+					url: 'https://zapier.com/',
+					pros: [],
+					cons: [],
+					foss: false
+				},
+				{
+					name: 'Make',
+					logo: '',
+					url: 'https://www.make.com/',
+					pros: [],
+					cons: [],
+					foss: false
+				}
 			]
 		}
 	};

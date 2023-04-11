@@ -6,7 +6,7 @@
 </script>
 
 <div class="prose mt-24 mb-4 mx-4 md:mx-auto md:prose-md lg:prose-xl">
-	<h1 class="text-center">Speed Wins</h1>
+	<h1 class="text-center">🚀 Speed Wins 🚀</h1>
 
 	<p>When you're building a new product, Speed Wins.</p>
 	<p>

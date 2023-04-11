@@ -85,10 +85,10 @@
 
 <div class="prose prose-m mt-24 mb-4 mx-4 md:mx-auto lg:prose-xl">
 	<p>
-		This site is built by <a href="https://alasdairb.com">Alasdair Brown</a>. The source is up on
-		<a href="https://github.com/sdairs/speedwins">GitHub</a>. The frontend uses
-		<a href="https://kit.svelte.dev/">SvelteKit</a>
-		and is hosted on <a href="https://vercel.com/">Vercel.</a>
+		Built by <a href="https://alasdairb.com">Alasdair Brown</a>. Source on
+		<a href="https://github.com/sdairs/speedwins">GitHub</a>. Built with
+		<a href="https://kit.svelte.dev/">SvelteKit</a>, hosted on
+		<a href="https://vercel.com/">Vercel.</a>
 	</p>
 </div>
 

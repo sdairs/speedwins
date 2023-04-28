@@ -102,9 +102,9 @@ export function load({ params }) {
 					foss: true
 				},
 				{
-					name: '1Password',
+					name: '-',
 					logo: '',
-					url: 'https://1password.com/',
+					url: '#',
 					pros: [],
 					cons: [],
 					foss: false
@@ -192,9 +192,9 @@ export function load({ params }) {
 					foss: true
 				},
 				{
-					name: 'AsciiDoc',
+					name: '-',
 					logo: '',
-					url: 'https://asciidoc.org/',
+					url: '#',
 					pros: [],
 					cons: [],
 					foss: true
@@ -210,9 +210,9 @@ export function load({ params }) {
 					foss: false
 				},
 				{
-					name: 'Snowflake',
+					name: 'RedShift',
 					logo: '',
-					url: 'https://www.snowflake.com/',
+					url: 'https://aws.amazon.com/redshift/',
 					pros: [],
 					cons: [],
 					foss: false
@@ -228,9 +228,9 @@ export function load({ params }) {
 					foss: false
 				},
 				{
-					name: 'GitLab',
+					name: '-',
 					logo: '',
-					url: 'https://gitlab.com',
+					url: '#',
 					pros: [],
 					cons: [],
 					foss: false

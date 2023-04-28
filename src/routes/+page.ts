@@ -379,6 +379,24 @@ export function load({ params }) {
 					cons: [],
 					foss: false
 				}
+			],
+			'CSS Framework': [
+				{
+					name: 'TailwindCSS',
+					logo: '',
+					url: 'https://tailwindcss.com/',
+					pros: [],
+					cons: [],
+					foss: true
+				},
+				{
+					name: '#',
+					logo: '',
+					url: '-',
+					pros: [],
+					cons: [],
+					foss: false
+				}
 			]
 		}
 	};

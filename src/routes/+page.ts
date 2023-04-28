@@ -30,9 +30,9 @@ export function load({ params }) {
 					foss: false
 				},
 				{
-					name: 'Tigris',
+					name: 'Neon',
 					logo: '',
-					url: 'https://www.tigrisdata.com/',
+					url: 'https://neon.tech/',
 					pros: [],
 					cons: [],
 					foss: false

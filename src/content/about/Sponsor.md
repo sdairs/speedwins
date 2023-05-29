@@ -1,0 +1,1 @@
+No, but it is opinionated. This site costs nothing to run, and makes no money

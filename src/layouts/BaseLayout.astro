@@ -2,7 +2,10 @@
 import "@fontsource-variable/inter";
 ---
 
-<html lang="en">
+<html
+  lang="en"
+  class="min-h-full bg-gradient-to-br from-slate-200 via-slate-200 to-slate-400 dark:bg-gradient-to-br dark:from-neutral-800 dark:via-neutral-800 dark:to-neutral-900"
+>
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -20,6 +23,10 @@ import "@fontsource-variable/inter";
     <title>SpeedWins</title>
   </head>
   <body>
-    <slot />
+    <main
+      class="prose prose-m mx-3 text-justify md:prose-l md:mx-auto dark:prose-invert"
+    >
+      <slot />
+    </main>
   </body>
 </html>

@@ -1,5 +1,5 @@
-<script lang="ts">
-	export let open: boolean = false;
+<script>
+	export let open = false;
 	import { slide } from 'svelte/transition';
 	const handleClick = () => (open = !open);
 </script>

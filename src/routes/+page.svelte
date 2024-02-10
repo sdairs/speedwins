@@ -1,8 +1,8 @@
-<script lang="ts">
+<script>
 	import Accordian from '$lib/components/Accordian.svelte';
 
 	/** @type {import('./$types').PageData} */
-	export let data: any;
+	export let data;
 </script>
 
 <div class="prose mt-24 mb-4 mx-4 md:mx-auto md:prose-md lg:prose-xl">

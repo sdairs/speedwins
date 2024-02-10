@@ -30,23 +30,15 @@ export function load({ params }) {
 					foss: false
 				},
 				{
-					name: 'Neon',
+					name: 'Amazon RDS',
 					logo: '',
-					url: 'https://neon.tech/',
+					url: 'https://aws.amazon.com/rds/',
 					pros: [],
 					cons: [],
 					foss: false
 				}
 			],
 			'Search Index': [
-				{
-					name: 'Tigris',
-					logo: '',
-					url: 'https://www.tigrisdata.com/',
-					pros: [],
-					cons: [],
-					foss: false
-				},
 				{
 					name: 'meilisearch',
 					logo: '',
@@ -57,14 +49,6 @@ export function load({ params }) {
 				}
 			],
 			'NoSQL/Document Database': [
-				{
-					name: 'Tigris',
-					logo: '',
-					url: 'https://www.tigrisdata.com/',
-					pros: [],
-					cons: [],
-					foss: false
-				},
 				{
 					name: 'MongoDB',
 					logo: '',
@@ -84,9 +68,9 @@ export function load({ params }) {
 					foss: false
 				},
 				{
-					name: 'BeamAnalytics',
+					name: 'Plausible',
 					logo: '',
-					url: 'https://beamanalytics.io/',
+					url: 'https://plausible.io/',
 					pros: [],
 					cons: [],
 					foss: false
@@ -100,14 +84,6 @@ export function load({ params }) {
 					pros: [],
 					cons: [],
 					foss: true
-				},
-				{
-					name: '-',
-					logo: '',
-					url: '#',
-					pros: [],
-					cons: [],
-					foss: false
 				}
 			],
 			'Frontend hosting/deployment': [
@@ -118,25 +94,9 @@ export function load({ params }) {
 					pros: [],
 					cons: [],
 					foss: false
-				},
-				{
-					name: 'Netlify',
-					logo: '',
-					url: 'https://www.netlify.com/',
-					pros: [],
-					cons: [],
-					foss: false
 				}
 			],
 			'Cloud Vendor': [
-				{
-					name: 'GCP',
-					logo: '',
-					url: 'https://cloud.google.com/',
-					pros: [],
-					cons: [],
-					foss: false
-				},
 				{
 					name: 'AWS',
 					logo: '',
@@ -174,9 +134,9 @@ export function load({ params }) {
 					foss: true
 				},
 				{
-					name: 'Nextra',
+					name: 'Astro Starlight',
 					logo: '',
-					url: 'https://nextra.site/',
+					url: 'https://starlight.astro.build/',
 					pros: [],
 					cons: [],
 					foss: true
@@ -190,14 +150,6 @@ export function load({ params }) {
 					pros: [],
 					cons: [],
 					foss: true
-				},
-				{
-					name: '-',
-					logo: '',
-					url: '#',
-					pros: [],
-					cons: [],
-					foss: true
 				}
 			],
 			'Data Warehouse': [
@@ -205,14 +157,6 @@ export function load({ params }) {
 					name: 'BigQuery',
 					logo: '',
 					url: 'https://cloud.google.com/bigquery',
-					pros: [],
-					cons: [],
-					foss: false
-				},
-				{
-					name: 'RedShift',
-					logo: '',
-					url: 'https://aws.amazon.com/redshift/',
 					pros: [],
 					cons: [],
 					foss: false
@@ -226,14 +170,6 @@ export function load({ params }) {
 					pros: [],
 					cons: [],
 					foss: false
-				},
-				{
-					name: '-',
-					logo: '',
-					url: '#',
-					pros: [],
-					cons: [],
-					foss: false
 				}
 			],
 			'Office Suite': [
@@ -244,29 +180,13 @@ export function load({ params }) {
 					pros: [],
 					cons: [],
 					foss: false
-				},
-				{
-					name: '-',
-					logo: '',
-					url: '#',
-					pros: [],
-					cons: [],
-					foss: false
 				}
 			],
-			'Shared Storage': [
+			'Shared File Storage': [
 				{
 					name: 'Google Drive',
 					logo: '',
 					url: 'https://drive.google.com/',
-					pros: [],
-					cons: [],
-					foss: false
-				},
-				{
-					name: '-',
-					logo: '',
-					url: '#',
 					pros: [],
 					cons: [],
 					foss: false
@@ -280,29 +200,13 @@ export function load({ params }) {
 					pros: [],
 					cons: [],
 					foss: false
-				},
-				{
-					name: 'Zoom',
-					logo: '',
-					url: 'https://zoom.us/',
-					pros: [],
-					cons: [],
-					foss: false
 				}
 			],
 			Email: [
 				{
-					name: 'GMail',
+					name: 'gmail',
 					logo: '',
 					url: 'https://mail.google.com/',
-					pros: [],
-					cons: [],
-					foss: false
-				},
-				{
-					name: '-',
-					logo: '',
-					url: '#',
 					pros: [],
 					cons: [],
 					foss: false
@@ -316,14 +220,6 @@ export function load({ params }) {
 					pros: [],
 					cons: [],
 					foss: false
-				},
-				{
-					name: 'Discord',
-					logo: '',
-					url: 'https://discord.com/',
-					pros: [],
-					cons: [],
-					foss: false
 				}
 			],
 			'Content Planner': [
@@ -334,14 +230,6 @@ export function load({ params }) {
 					pros: [],
 					cons: [],
 					foss: false
-				},
-				{
-					name: '-',
-					logo: '',
-					url: '#',
-					pros: [],
-					cons: [],
-					foss: false
 				}
 			],
 			'PLG/Marketing Workflows': [
@@ -349,14 +237,6 @@ export function load({ params }) {
 					name: 'customer.io',
 					logo: '',
 					url: 'https://customer.io/',
-					pros: [],
-					cons: [],
-					foss: false
-				},
-				{
-					name: '-',
-					logo: '',
-					url: '#',
 					pros: [],
 					cons: [],
 					foss: false
@@ -388,11 +268,23 @@ export function load({ params }) {
 					pros: [],
 					cons: [],
 					foss: true
-				},
+				}
+			],
+			'Knowledge base/wiki': [
 				{
-					name: '#',
+					name: 'Notion',
 					logo: '',
-					url: '-',
+					url: 'https://www.notion.so/',
+					pros: [],
+					cons: [],
+					foss: false
+				}
+			],
+			'Issue tracker': [
+				{
+					name: 'Linear',
+					logo: '',
+					url: 'https://linear.app/',
 					pros: [],
 					cons: [],
 					foss: false

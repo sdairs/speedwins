@@ -14,7 +14,7 @@
 		These recomendations will let you start, and stay, fast.
 	</p>
 	<Accordian>
-		<span slot="head">Tell me more...</span>
+		<span slot="head">What is this?</span>
 		<div slot="details">
 			<p>
 				When you're building a product, there's a bunch of decisions you're going to need to make.
@@ -72,11 +72,16 @@
 			{#each Object.entries(data.tools).sort() as [cat, recs]}
 				<tr>
 					<td class="border-slate-200 border">{cat}</td>
-					{#each recs as rec}
-						<td class="border-slate-200 border text-center">
-							<a href={rec.url} target="_blank">{rec.name}</a>
-						</td>
-					{/each}
+					<td class="border-slate-200 border text-center">
+						<a href={recs[0].url} target="_blank">{recs[0].name}</a>
+					</td>
+					<td class="border-slate-200 border text-center">
+						{#if recs.length == 1}
+							-
+						{:else}
+							<a href={recs[1].url} target="_blank">{recs[1].name}</a>
+						{/if}
+					</td>
 				</tr>
 			{/each}
 		</tbody>
@@ -85,10 +90,8 @@
 
 <div class="prose prose-m mt-24 mb-4 mx-4 md:mx-auto lg:prose-xl">
 	<p>
-		Built by <a href="https://alasdairb.com">Alasdair Brown</a>. Source on
-		<a href="https://github.com/sdairs/speedwins">GitHub</a>. Built with
-		<a href="https://kit.svelte.dev/">SvelteKit</a>, hosted on
-		<a href="https://vercel.com/">Vercel.</a>
+		By <a href="https://alasdairb.com">Alasdair Brown</a>. Source on
+		<a href="https://github.com/sdairs/speedwins">GitHub</a>.
 	</p>
 </div>
 
